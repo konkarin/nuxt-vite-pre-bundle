@@ -1,3 +1,3 @@
 <template>
-  <div>here is index.vue</div>
+  <div>here is index</div>
 </template>
