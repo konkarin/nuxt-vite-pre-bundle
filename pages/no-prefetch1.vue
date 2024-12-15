@@ -5,6 +5,6 @@ console.log(throttle);
 </script>
 
 <template>
-  <h1>here is not-prefetch1</h1>
+  <h1>here is no-prefetch1</h1>
   <div>lodash.throttle</div>
 </template>

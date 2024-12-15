@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@types/lodash.after": "^4.0.9",
+    "@types/lodash.before": "^4.0.9",
     "@types/lodash.debounce": "^4.0.9",
     "@types/lodash.defaults": "^4.2.9",
     "@types/lodash.merge": "^4.6.9",
@@ -19,6 +20,7 @@
     "@types/lodash.partition": "^4.6.9",
     "@types/lodash.throttle": "^4.1.9",
     "lodash.after": "^4.0.4",
+    "lodash.before": "^4.0.4",
     "lodash.debounce": "^4.0.8",
     "lodash.defaults": "^4.2.0",
     "lodash.merge": "^4.6.2",
