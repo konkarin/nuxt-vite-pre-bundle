@@ -8,8 +8,7 @@ export default defineNuxtConfig({
       entries: [
         // all dependencies crawled before open localhost
         // "pages/**/*.vue",
-        //
-        // only components/ dependencies crawled
+        // "layouts/**/*.vue",
         // "components/**/*.vue",
       ],
     },
