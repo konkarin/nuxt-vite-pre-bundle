@@ -5,6 +5,6 @@ console.log(merge);
 </script>
 
 <template>
-  <div>this component is imported dynamically</div>
   <div>lodash.merge</div>
+  <div>this component is imported dynamically</div>
 </template>

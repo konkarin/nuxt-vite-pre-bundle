@@ -5,6 +5,6 @@ console.log(before);
 </script>
 
 <template>
-  <div>this component is imported from app.vue</div>
   <div>lodash.before</div>
+  <div>this component is imported from app.vue</div>
 </template>

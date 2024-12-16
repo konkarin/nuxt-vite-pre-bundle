@@ -11,6 +11,7 @@ const DynamicImport = defineAsyncComponent(
 <template>
   <div>
     <h1>app.vue</h1>
+
     <DynamicImport></DynamicImport>
 
     <ImportFromApp></ImportFromApp>
@@ -18,7 +19,10 @@ const DynamicImport = defineAsyncComponent(
 
   <div>
     <h1>links</h1>
+
     <nuxt-link to="/">index</nuxt-link> |
+
+    <nuxt-link to="/layout">layout</nuxt-link> |
 
     <nuxt-link to="/prefetch">prefetch</nuxt-link> |
 

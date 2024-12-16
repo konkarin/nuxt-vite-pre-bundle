@@ -7,7 +7,7 @@ console.log(partition);
 <template>
   <div>
     <slot />
-    <div>this is test layout</div>
     <div>lodash.partition</div>
+    <div>this is test layout</div>
   </div>
 </template>

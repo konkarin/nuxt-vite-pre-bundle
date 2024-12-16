@@ -5,6 +5,6 @@ console.log(after);
 </script>
 
 <template>
-  <div>this component is imported automatically</div>
   <div>lodash.after</div>
+  <div>this component is imported automatically</div>
 </template>

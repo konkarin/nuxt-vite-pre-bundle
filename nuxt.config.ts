@@ -10,6 +10,9 @@ export default defineNuxtConfig({
         // "pages/**/*.vue",
         // "layouts/**/*.vue",
         // "components/**/*.vue",
+        //
+        // or
+        // "**/*.vue",
       ],
     },
   },
