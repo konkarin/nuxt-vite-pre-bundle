@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import debounce from "lodash.debounce";
+import flip from "lodash.flip";
 
-console.log(debounce);
+console.log(flip);
 </script>
 
 <template>
   <h1>here is prefetch</h1>
-  <div>lodash.debounce</div>
+  <div>lodash.flip</div>
 </template>

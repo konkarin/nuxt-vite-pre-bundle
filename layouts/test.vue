@@ -1,13 +1,13 @@
 <script lang="ts">
-import partition from "lodash.partition";
+import head from "lodash.head";
 
-console.log(partition);
+console.log(head);
 </script>
 
 <template>
   <div>
     <slot />
-    <div>lodash.partition</div>
+    <div>lodash.head</div>
     <div>this is test layout</div>
   </div>
 </template>

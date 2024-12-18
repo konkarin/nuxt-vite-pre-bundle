@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import merge from "lodash.merge";
+import defaults from "lodash.defaults";
 
-console.log(merge);
+console.log(defaults);
 </script>
 
 <template>
-  <div>lodash.merge</div>
+  <div>lodash.defaults</div>
   <div>this component is imported dynamically</div>
 </template>

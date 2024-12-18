@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import defaults from "lodash.defaults";
+import after from "lodash.after";
 
-console.log(defaults);
+console.log(after);
+
+const compact = await import("lodash.compact");
+console.log(compact);
 
 const DynamicImport = defineAsyncComponent(
   () => import("./components/dynamicImport.vue")
@@ -11,24 +14,21 @@ const DynamicImport = defineAsyncComponent(
 <template>
   <div>
     <h1>app.vue</h1>
-
-    <DynamicImport></DynamicImport>
+    <div>lodash.after</div>
 
     <ImportFromApp></ImportFromApp>
+
+    <DynamicImport></DynamicImport>
   </div>
 
   <div>
     <h1>links</h1>
 
-    <nuxt-link to="/">index</nuxt-link> |
-
     <nuxt-link to="/layout">layout</nuxt-link> |
 
     <nuxt-link to="/prefetch">prefetch</nuxt-link> |
 
-    <nuxt-link to="/no-prefetch1" no-prefetch>no-prefetch1</nuxt-link> |
-
-    <button @click="useRouter().push('/no-prefetch2')">no-prefetch2</button> |
+    <nuxt-link to="/no-prefetch" no-prefetch>no-prefetch</nuxt-link> |
 
     <nuxt-link to="/auto-imports">auto-imports</nuxt-link> |
   </div>
