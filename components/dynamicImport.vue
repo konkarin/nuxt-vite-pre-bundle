@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import defaults from "lodash.defaults";
+import debounce from "lodash.debounce";
 
-console.log(defaults);
+console.log(debounce.name);
 </script>
 
 <template>
-  <div>lodash.defaults</div>
+  <div>lodash.debounce</div>
   <div>this component is imported dynamically</div>
 </template>

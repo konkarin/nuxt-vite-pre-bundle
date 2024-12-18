@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import flip from "lodash.flip";
 
-console.log(flip);
+console.log(flip.name);
 </script>
 
 <template>

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import groupby from "lodash.groupby";
+import get from "lodash.get";
 
-console.log(groupby);
+console.log(get.name);
 </script>
 
 <template>
   <h1>here is no-prefetch</h1>
-  <div>lodash.groupby</div>
+  <div>lodash.get</div>
 </template>

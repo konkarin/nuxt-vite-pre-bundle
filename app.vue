@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import after from "lodash.after";
 
-console.log(after);
+console.log(after.name);
 
 const compact = await import("lodash.compact");
-console.log(compact);
+console.log(compact.default.name);
 
 const DynamicImport = defineAsyncComponent(
   () => import("./components/dynamicImport.vue")
@@ -29,8 +29,6 @@ const DynamicImport = defineAsyncComponent(
     <nuxt-link to="/prefetch">prefetch</nuxt-link> |
 
     <nuxt-link to="/no-prefetch" no-prefetch>no-prefetch</nuxt-link> |
-
-    <nuxt-link to="/auto-imports">auto-imports</nuxt-link> |
   </div>
 
   <NuxtLayout>

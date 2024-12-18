@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import every from "lodash.every";
 
-console.log(every);
+console.log(every.name);
 </script>
 
 <template>

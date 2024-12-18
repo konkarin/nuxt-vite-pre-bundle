@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import before from "lodash.before";
 
-console.log(before);
+console.log(before.name);
 </script>
 
 <template>
