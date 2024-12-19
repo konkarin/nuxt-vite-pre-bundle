@@ -5,6 +5,6 @@ console.log(debounce.name);
 </script>
 
 <template>
+  <h2>dynamicImport.vue</h2>
   <div>lodash.debounce</div>
-  <div>this component is imported dynamically</div>
 </template>

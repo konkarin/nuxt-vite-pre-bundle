@@ -7,7 +7,7 @@ console.log(head.name);
 <template>
   <div>
     <slot />
+    <h2>this is test layout</h2>
     <div>lodash.head</div>
-    <div>this is test layout</div>
   </div>
 </template>

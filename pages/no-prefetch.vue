@@ -5,6 +5,6 @@ console.log(get.name);
 </script>
 
 <template>
-  <h1>here is no-prefetch</h1>
+  <h1>here is /no-prefetch</h1>
   <div>lodash.get</div>
 </template>

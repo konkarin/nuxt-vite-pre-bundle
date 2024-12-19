@@ -5,6 +5,6 @@ console.log(every.name);
 </script>
 
 <template>
-  <h1>here is index</h1>
+  <h1>here is /</h1>
   <div>lodash.every</div>
 </template>
