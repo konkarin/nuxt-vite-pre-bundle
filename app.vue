@@ -24,6 +24,8 @@ const DynamicImport = defineAsyncComponent(
   <div>
     <h1>links</h1>
 
+    <button @click="useRouter().push('/')">index</button> |
+
     <nuxt-link to="/prefetch">prefetch</nuxt-link> |
 
     <nuxt-link to="/no-prefetch" no-prefetch>no-prefetch</nuxt-link> |
